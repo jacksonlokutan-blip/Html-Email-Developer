@@ -37,5 +37,5 @@ A strategic re-engagement layout built to nudge buyers back to their online shop
 ## 📬 Let's Work Together
 I am actively open to remote microtasks, agency contract work, and global freelance gigs. Let's make your email campaigns beautifully responsive.
 
-* **Email:** your-email@example.com
+* **Email:** jacksonlokutan@gmail.com
 * **Location:** Lodwar, Turkana County, Kenya (Available for global remote work)
