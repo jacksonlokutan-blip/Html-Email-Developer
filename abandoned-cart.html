@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Did you forget something? Your cart is waiting!</title>
+    <style>
+        body { margin: 0; padding: 0; background-color: #f7fafc; font-family: 'Helvetica Neue', Arial, sans-serif; }
+        table { border-collapse: collapse; }
+        .wrapper { width: 100%; table-layout: fixed; background-color: #f7fafc; padding-top: 40px; padding-bottom: 40px; }
+        .main { background-color: #ffffff; margin: 0 auto; width: 100%; max-width: 600px; border-radius: 12px; border: 1px solid #e2e8f0; }
+        .btn-cart { background-color: #ff6b6b; color: #ffffff !important; padding: 14px 28px; text-decoration: none; border-radius: 8px; display: inline-block; font-weight: bold; font-size: 16px; box-shadow: 0 4px 6px rgba(255,107,107,0.2); }
+        .coupon-box { border: 2px dashed #cbd5e0; background-color: #fffaf0; padding: 15px; border-radius: 8px; text-align: center; margin: 20px 0; }
+        
+        @media screen and (max-width: 600px) {
+            .responsive-padding { padding: 25px !important; }
+            .cart-item-text { padding-left: 15px !important; }
+        }
+    </style>
+</head>
+<body>
+    <center class="wrapper">
+        <table class="main" width="100%" cellpadding="0" cellspacing="0">
+            <!-- HEADER ACCENT BAR -->
+            <tr>
+                <td height="6" bgcolor="#ff6b6b" style="border-top-left-radius: 12px; border-top-right-radius: 12px; font-size: 1px; line-height: 1px;">&nbsp;</td>
+            </tr>
+
+            <!-- LOGO -->
+            <tr>
+                <td style="padding: 30px 40px 10px 40px; text-align: center;" class="responsive-padding">
+                    <h2 style="color: #2d3748; margin: 0; font-size: 22px; font-weight: 700; letter-spacing: -0.5px;">💡 KILELE OUTDOORS</h2>
+                </td>
+            </tr>
+            
+            <!-- HERO HERO TEXT -->
+            <tr>
+                <td style="padding: 20px 40px; text-align: center;" class="responsive-padding">
+                    <h1 style="margin: 0 0 15px 0; color: #1a202c; font-size: 26px; font-weight: 800;">Don't leave your gear behind!</h1>
+                    <p style="color: #4a5568; font-size: 16px; line-height: 1.6; margin: 0;">
+                        We noticed you left some premium gear sitting in your shopping cart. Items this popular sell out quickly in our warehouse. We have saved your cart for the next 24 hours so you don't miss out.
+                    </p>
+                </td>
+            </tr>
+
+            <!-- ABANDONED ITEM VISUAL DISPLAY -->
+            <tr>
+                <td style="padding: 20px 40px;" class="responsive-padding">
+                    <table width="100%" cellpadding="0" cellspacing="0" style="background-color: #f8fafc; border-radius: 8px; padding: 20px;">
+                        <tr>
+                            <!-- Styled Placeholder for Item Image -->
+                            <td width="80" valign="top">
+                                <table cellpadding="0" cellspacing="0" width="100%">
+                                    <tr>
+                                        <td height="80" bgcolor="#e2e8f0" align="center" style="border-radius: 6px; font-size: 11px; color: #718096; font-weight: bold; font-family: sans-serif;">
+                                            [ TENT IM]
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <!-- Item Details -->
+                            <td class="cart-item-text" style="padding-left: 20px;" valign="middle">
+                                <h3 style="margin: 0 0 5px 0; color: #2d3748; font-size: 16px; font-weight: bold;">Waterproof 4-Person Camping Tent</h3>
+                                <p style="margin: 0 0 5px 0; color: #718096; font-size: 14px;">Color: Olive Green</p>
+                                <p style="margin: 0; color: #ff6b6b; font-size: 16px; font-weight: bold;">KES 14,500</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- INCENTIVE OFFER / COUPON BLOCK -->
+            <tr>
+                <td style="padding: 10px 40px;" class="responsive-padding">
+                    <div class="coupon-box">
+                        <p style="margin: 0 0 8px 0; color: #2d3748; font-size: 15px; font-weight: bold;">Need a little nudge? Here is 10% off!</p>
+                        <p style="margin: 0 0 12px 0; color: #718096; font-size: 13px;">Use this exclusive code at your checkout screen:</p>
+                        <span style="font-family: monospace; background-color: #ffffff; border: 1px solid #e2e8f0; padding: 6px 16px; font-size: 18px; font-weight: bold; color: #1a202c; border-radius: 4px; letter-spacing: 2px;">COMEBACK10</span>
+                    </div>
+                </td>
+            </tr>
+
+            <!-- CALL TO ACTION BUTTON -->
+            <tr>
+                <td style="padding: 20px 40px 40px 40px; text-align: center;" class="responsive-padding">
+                    <!--[if mso]>
+                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:48px;v-text-anchor:middle;width:220px;" arcsize="17%" stroke="f" fillcolor="#ff6b6b">
+                    <w:anchorlock/>
+                    <center style="color:#ffffff;font-family:sans-serif;font-size:16px;font-weight:bold;">Return to My Cart</center>
+                    </v:roundrect>
+                    <![endif]-->
+                    <!--[if !mso]><!-->
+                    <a class="btn-cart" href="#">Return to My Cart</a>
+                    <!--<![endif]-->
+                </td>
+            </tr>
+
+            <!-- FOOTER -->
+            <tr>
+                <td style="padding: 40px 20px; background-color: #1a202c; border-bottom-left-radius: 12px; border-bottom-right-radius: 12px; text-align: center; font-size: 12px; color: #a0aec0;">
+                    <p style="margin: 0 0 10px 0; line-height: 1.5;">You left items in your shopping cart during a recent visit to kileleoutdoors.co.ke.</p>
+                    <p style="margin: 0 0 20px 0;"><a href="#" style="color: #f56565; text-decoration: underline;">Unsubscribe from basket reminders</a></p>
+                    <p style="margin: 0;">&copy; 2026 Kilele Outdoors Ltd. All rights reserved.</p>
+                </td>
+            </tr>
+        </table>
+    </center>
+</body>
+</html>
