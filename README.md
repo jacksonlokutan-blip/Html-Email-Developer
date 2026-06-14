@@ -26,7 +26,7 @@ A vibrant, mobile-first marketing template featuring a bold hero section, urgenc
 
 ### 📰 Project 3: Corporate & Tech Weekly Newsletter (Informational)
 A clean, structured multi-topic newsletter featuring a navigation header, social media integrations, and clear content blocks for fast reading.
-* [View Raw Source Code](./newsletter.html)
+* [View Raw Source Code](./gulf_newsletter.html)
 
 ### 🛒 Project 4: Cart Abandonment Recovery (Behavioral/Triggered)
 A strategic re-engagement layout built to nudge buyers back to their online shopping carts using psychological hierarchy and strong CTA contrast.
